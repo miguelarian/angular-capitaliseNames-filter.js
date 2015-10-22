@@ -1,4 +1,4 @@
-angular.module('mymodule').filter('capitaliseName', ['$filter', function ($filter) 
+angular.module('mymodule').filter('capitalise', ['$filter', function ($filter) 
     {
         return function(items) 
         {
